@@ -1,0 +1,96 @@
+@import _reset.css
+
+$font-stack: "Montserrat", sans-serif
+$secondary-font: "Pacifico", cursive
+$primary-color: #f05b62
+$secondary-color: #333333
+
+html
+  font: 100% $font-stack
+  background-color: $primary-color
+
+header
+  text-align: center
+
+h1
+  color: #fff
+  font-family: $secondary-font
+  font-size: 3em
+  padding: 2rem
+
+h2
+  font-family: $font-stack
+  font-size: 2rem
+  color: $secondary-color
+  text-align: center
+
+main
+  text-align: center
+
+  p
+    font-size: 1.3rem
+    font-family: $font-stack
+    color: $secondary-color
+    ling-height: 1.5rem
+    margin-top: 20px
+
+input[type="number"], input[type="submit"]
+  background-color: #fff
+  color: #333
+  border: none
+
+.paragraph-number
+  min-height: 2rem
+  font-size: 1.5rem
+  line-height: 1.5rem
+  text-align: center
+  font-family: monospace
+  border-radius: 4px
+  border: none
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.3)
+  outline: none
+  margin-right: 15px
+  margin-top: 20px
+
+.generate-button
+  width: 6rem
+  height: 2rem
+  border-radius: 10px
+  background-color: #fff
+  box-sizing: border-box
+  border: none
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
+  font-size: 0.9rem
+  cursor: pointer
+
+.generated-text
+  background-color: rgba(255, 255, 255, 0.85)
+  background-image: url(../img/circle-gdi-logo.png)
+  background-repeat: no-repeat
+  background-blend-mode: lighten
+  background-position: center
+  color: #000
+  min-height: 550px
+  max-width: 68%
+  margin: 30px auto
+  border-radius: 10px
+  padding: 20px
+
+.generated-text p
+  font-size: 1.2rem
+  padding: 7px 15px
+  text-align: left
+  line-height: 1.3rem
+  font-family: monospace
+
+footer
+  position: relative
+  bottom: 0
+  margin: 0 auto
+
+footer p
+  width: 95vw
+  font-family: $font-stack
+  color: $secondary-color
+  padding: 20px
+  text-align: center

@@ -1,0 +1,31 @@
+{
+  "name": "girl-develop-ipsum",
+  "version": "1.0.0",
+  "description": "A lorem ipsum generator",
+  "main": "gdi-ipsum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lorem ipsum",
+    "Girl Develop It"
+  ],
+  "author": "Parker",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.3",
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "gulp-dependency-install": "0.0.8"
+  }
+}
